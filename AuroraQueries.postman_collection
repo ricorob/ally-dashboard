@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "AuroraQueries",
+		"_postman_id": "017da1ba-90b3-d123-4a42-7c025c2f146b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://hatteras.herokuapp.com/parse/classes/Activity",
+			"request": {
+				"url": "https://hatteras.herokuapp.com/parse/classes/Activity",
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Parse-Application-Id",
+						"value": "71fec7d3-0bf1-4b17-a348-6226f061a258",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"My First Activity\", \n\"icon\":\"https://d30y9cdsu7xlg0.cloudfront.net/png/46951-200.png\",\n\"description\":\"dbPride Monthly Meeting\",\n\"points\":1000\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://hatteras.herokuapp.com/parse/classes/Activity",
+			"request": {
+				"url": "https://hatteras.herokuapp.com/parse/classes/Activity",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Parse-Application-Id",
+						"value": "71fec7d3-0bf1-4b17-a348-6226f061a258",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"My First Activity\", \n\"icon\":\"https://d30y9cdsu7xlg0.cloudfront.net/png/46951-200.png\",\n\"description\":\"dbPride Monthly Meeting\",\n\"points\":1000\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
